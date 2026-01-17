@@ -132,6 +132,22 @@
       }
     }
 
+    nav {
+      &>div>img:hover {
+        /* Zoom In #1 */
+
+        
+          -webkit-transform: scale(1);
+          transform: scale(1);
+          -webkit-transition: .5s ease-in-out;
+          transition: .5s ease-in-out;
+
+          -webkit-transform: scale(1.18);
+          transform: scale(1.18);
+      }
+    }
+
+
     #mp4div {
       background-color: #242424;
       margin-top: 250px;
