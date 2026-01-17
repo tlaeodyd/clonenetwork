@@ -11,10 +11,12 @@
     header {
 
       &>div {
+        background-color: rgb(21, 21, 21);
         display: flex;
         flex-direction: row;
         justify-content: start;
         align-items: center;
+        height: 50px;
 
         &>ul {
           list-style: none;
@@ -44,6 +46,7 @@
     }
 
     main {
+
       display: flex;
       flex-direction: column;
       margin-top: 350px;
@@ -53,20 +56,20 @@
       width: 500px;
       font-size: 20px;
       color: white;
+      font-weight: 700;
     }
 
     /* 버튼 레이아웃 */
     .btn-11-play {
       border: none;
-      background: rgb(251, 33, 117);
-      background: linear-gradient(0deg, rgba(0, 0, 0, 0.457) 0%, rgb(5, 5, 5) 100%);
-      color: #ffffff;
+      background-color: #000000;
+      color: #000000;
       overflow: hidden;
     }
+
     .btn-11-info {
       border: none;
-      background: rgb(251, 33, 117);
-      background: linear-gradient(0deg, rgba(128, 128, 128, 0.488), gray 100%);
+      background-color: gray;
       color: #ffffff;
       overflow: hidden;
     }
@@ -123,8 +126,13 @@
     /* 까지 */
 
     nav {
-      & > div > img {
+      &>div>img {
         margin-top: 50px;
         margin-left: 30px;
       }
+    }
+
+    #mp4div {
+      background-color: #242424;
+      margin-top: 250px;
     }
