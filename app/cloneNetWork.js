@@ -21,7 +21,7 @@ function setRandomBanner() {
   const randomIndex = Math.floor(Math.random() * movieData.length);
   const selectedMovie = movieData[randomIndex];
 
-  const infoDiv = document.getElementById('info');
+  const infoDiv = document.querySelector('#info');
   const body = document.querySelector('body');
 
   if (infoDiv) {
